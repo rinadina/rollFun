@@ -4,13 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#03A9F4"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/Play"
+        android:layout_width="156dp"
+        android:layout_height="59dp"
+        android:background="#FF9800"
         android:text="Play"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="324dp" />
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <Button
+        android:id="@+id/Rules"
+        android:layout_width="154dp"
+        android:layout_height="58dp"
+        android:background="#FF9800"
+        android:text="Rules"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="559dp" />
+
+    <Button
+        android:id="@+id/Reset"
+        android:layout_width="154dp"
+        android:layout_height="58dp"
+        android:background="#FF9800"
+        android:text="Reset"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <Button
+        android:id="@+id/AddMembers"
+        android:layout_width="153dp"
+        android:layout_height="60dp"
+        android:background="#FF9800"
+        android:text="Add Members"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="303dp"
+        android:layout_height="97dp"
+        android:text="Roll Fun"
+        android:textSize="60"
+        app:fontFamily="@font/audiowide"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="148dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
