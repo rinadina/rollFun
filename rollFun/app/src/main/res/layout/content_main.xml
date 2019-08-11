@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/Rules"
+        android:layout_width="135dp"
+        android:layout_height="56dp"
+        android:background="#FFC107"
+        android:text="Rules"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <Button
+        android:id="@+id/AddMember"
+        android:layout_width="135dp"
+        android:layout_height="56dp"
+        android:background="#FFC107"
+        android:text="Add Members"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <Button
+        android:id="@+id/Reset"
+        android:layout_width="135dp"
+        android:layout_height="56dp"
+        android:background="#FFC107"
+        android:text="Reset"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <Button
+        android:id="@+id/Play"
+        android:layout_width="135dp"
+        android:layout_height="56dp"
+        android:background="#FFC107"
+        android:text="Play"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="287dp"
+        android:layout_height="83dp"
+        android:text="Roll Fun"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="60sp"
+        app:fontFamily="@font/baloo_chettan"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="161dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
